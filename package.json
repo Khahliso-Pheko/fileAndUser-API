@@ -1,0 +1,28 @@
+{
+  "name": "fileanduser-api",
+  "version": "1.0.0",
+  "description": "This is an API repository for file and user management -Written in javascript using nodejs -Connects to a mySQL database to store,update and query both file and user data (CRUD) -Exposes endpoints that can be used or consumed by any application",
+  "main": "connection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khahliso-Pheko/fileAndUser-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khahliso-Pheko/fileAndUser-API/issues"
+  },
+  "homepage": "https://github.com/Khahliso-Pheko/fileAndUser-API#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "cors": "^2.8.5",
+    "directory-tree": "^2.2.9",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12"
+  }
+}
